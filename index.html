@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RocketCard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="test">
+    <section class="card">
+      <h2>Compartilhe seu #rocketCard</h2>
+      <input type="text" id="nomeDigitado" placeholder="Digite seu user do GitHub">
+      <button id="btn2">Enviar</button>
+      <div id="fundo">
+        <div>
+          <h3>
+            <div class="logo_nome">
+              <img src="assets/logo.svg" alt="">
+            </div>
+            <span id="nome"></span>
+          </h3>
+
+          <div id="div_img">
+            <img id="image_user" src="" alt="">
+          </div>
+
+          <ul>
+            <li> <img src="assets/followers.svg" alt=""><span id="seguidores"></span> Seguidores</li>
+            <li> <img src="assets/following.svg" alt=""><span id="seguindo"></span> Seguindo</li>
+            <li> <img src="assets/repository.svg" alt=""><span id="repo"></span> Repositórios</li>
+            <li> <img src="assets/company.svg" alt=""><span id="compania"></span> - Compania</li>
+            <li> <img src="assets/location.svg" alt=""><span id="local"></span> - Local</li>
+          </ul>
+          <h3 class="rocketcard"> <img src="assets/logo.svg" alt=""> ROCKETCARD</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="button">
+      <h3>Customizar Rocketcard</h3>
+      <button id="btn">Gerar background</button>
+    </section>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
